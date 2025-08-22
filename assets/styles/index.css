@@ -8,6 +8,7 @@
 
 body {
     font-family: "Noto serif", serif;
+    padding: 20px;
 }
 
 h1 {
@@ -23,9 +24,25 @@ h2 {
     color: darkgray;
 }
 
-.Flex-container {
+.flex-container {
     width: 90%;
     height: 200px;
-    background-color: #b69393;
+    background: linear-gradient(rgb(201, 114, 114), rgba(94, 122, 247, 0.61));
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 2px solid black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 10px;
+}
