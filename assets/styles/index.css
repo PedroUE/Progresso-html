@@ -54,3 +54,11 @@ h2 {
 .justify-end {
     justify-content: flex-end;
 }
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
