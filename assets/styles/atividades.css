@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    margin: 0 auto 20px;
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+}
