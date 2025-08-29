@@ -1,17 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.semafaro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 100vh;
+    gap: 40px;
 }
 
-.flex-container {
-    margin: 0 auto 20px;
-    width: 400px;
-    height: 200px;
-    background-color: rgb(58, 119, 199);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-top: 10px;
+.sinal{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+
+.vermelho{
+    background-color: rgb(245, 8, 8);
+}
+.amarelo{
+    background-color: yellow;
+}
+.verde{
+    background-color: rgb(60, 255, 0);
 }
