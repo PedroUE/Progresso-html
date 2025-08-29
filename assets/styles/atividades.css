@@ -8,10 +8,10 @@
     margin: 0 auto 20px;
     width: 400px;
     height: 200px;
-    background-color: aquamarine;
+    background-color: rgb(58, 119, 199);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 30px;
-    padding: 20px;
+    margin-top: 10px;
 }
