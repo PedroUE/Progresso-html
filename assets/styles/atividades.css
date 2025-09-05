@@ -5,7 +5,12 @@
     flex-direction: column-reverse;
     height: 500px;
     gap: 40px;
+    background-color: rgb(68, 63, 63);
+    width: 220px;
+    border-radius: 25px;
+    margin: 0 auto 30px;
 }
+
 
 .sinal{
     width: 100px;
