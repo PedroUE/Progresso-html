@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+.navegation {
+    color: rgb(0, 150, 150);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 20px;
+    border: 2px solid rgb(0, 150, 150);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.navegation:hover {
+    background-color: rgb(67, 129, 165);
+    color: black;
+}
+
 body {
     font-family: "Noto serif", serif;
     padding: 20px;

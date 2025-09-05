@@ -3,14 +3,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    height: 100vh;
+    height: 500px;
     gap: 40px;
 }
 
 .sinal{
     width: 100px;
     height: 100px;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 
