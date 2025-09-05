@@ -21,10 +21,13 @@
 
 .vermelho{
     background-color: rgb(245, 8, 8);
+    box-shadow: 0 0 20px #ff0000;
 }
 .amarelo{
     background-color: yellow;
+    box-shadow: 0 0 20px yellow;
 }
 .verde{
-    background-color: rgb(60, 255, 0);
+    background-color: #3cff00;
+    box-shadow: 0 0 20px #3cff00
 }
